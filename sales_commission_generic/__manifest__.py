@@ -3,7 +3,7 @@
 
 {
     "name" : "Sales Commission from Sales/Invoice/Payment in Odoo ",
-    "version" : "13.0.1.3",
+    "version" : "13.0.1.4",
     'category' : "Sales",
     "summary" : "Sale Commission for sales order invoice based commission payment based commission margin based commission for product margin commissions for sales person commission for partner Sales Agent commission Sales Commission for Users commission based on margin",
     "description": """
