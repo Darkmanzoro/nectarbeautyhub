@@ -14,6 +14,8 @@ class SaleOrder(models.Model):
         """
         invoice_vals = super(SaleOrder, self)._prepare_invoice()
         if self.auto_workflow_process_id:
+            if self.auto_workflow_process_id.sale_journal_id:
+                invoice_vals.update({'journal_id': self.auto_workflow_process_id.sale_journal_id.id})
             #invoice_vals.update({'journal_id': self.auto_workflow_process_id.sale_journal_id.id})
             if self.auto_workflow_process_id.invoice_date_is_order_date:
                 invoice_vals['date'] = self.date_order.date()

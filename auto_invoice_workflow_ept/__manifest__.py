@@ -1,7 +1,7 @@
 {
     # App information
     'name': 'Automatic Workflow Settings',
-    'version': '13.0.7',
+    'version': '13.0.8',
     'category': 'Sale',
     'license': 'OPL-1',
     # Author
